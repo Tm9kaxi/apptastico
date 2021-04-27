@@ -92,3 +92,14 @@
     .main_contents .contents {
       width: 85%;
       margin: 0 auto 25px; } }
+
+@media only screen and (max-width: 420px) {
+  .header_content_buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .header_content_buttons button {
+      margin-bottom: 15px; }
+    .header_content_buttons p {
+      margin-bottom: 15px; } }
